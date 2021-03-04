@@ -171,12 +171,12 @@ int main (int argc, char** argv)
 
 ROS_INFO("Wait for the simulation to become ready...");
 
-/*
+
 while( !sim_running && ros::ok() ){
     ros::spinOnce();
     ros::Duration(0.1).sleep();
 }
-*/
+
 ROS_INFO("The simulation has started!");
 
 // Wait for 30s so that everything can settel and the crazyflie 2.0 starts to hover
